@@ -3,13 +3,18 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		3B557156CBB786C67285CF75 /* Pods_ozan_case_study.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 709CF1E41B978A51B16F0C1E /* Pods_ozan_case_study.framework */; };
 		85D62D06E9EF66CD255640B7 /* Pods_ozan_case_study_ozan_case_studyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C277E0F58A11E2A12515FE72 /* Pods_ozan_case_study_ozan_case_studyUITests.framework */; };
 		D295CC8F45B18F3B2680D798 /* Pods_ozan_case_studyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7B3E4A7C53DA0452400FF74 /* Pods_ozan_case_studyTests.framework */; };
+		DC013C0627CE9A78008D02D9 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC013C0527CE9A78008D02D9 /* Environment.swift */; };
+		DC013C0827CE9AB2008D02D9 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC013C0727CE9AB2008D02D9 /* Router.swift */; };
+		DC013C0A27CE9AD1008D02D9 /* CoinApiRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC013C0927CE9AD1008D02D9 /* CoinApiRouter.swift */; };
+		DC013C0C27CE9CAA008D02D9 /* NetworkServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC013C0B27CE9CAA008D02D9 /* NetworkServiceError.swift */; };
+		DC013C0F27CE9CD3008D02D9 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC013C0E27CE9CD3008D02D9 /* Logger.swift */; };
 		DC30F2CF27CE9513004C4338 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC30F2CE27CE9513004C4338 /* AppDelegate.swift */; };
 		DC30F2D827CE9514004C4338 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC30F2D727CE9514004C4338 /* Assets.xcassets */; };
 		DC30F2DB27CE9514004C4338 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC30F2D927CE9514004C4338 /* LaunchScreen.storyboard */; };
@@ -49,6 +54,11 @@
 		9FC1B31AD93226B766F5D624 /* Pods-ozan-case-study-ozan-case-studyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ozan-case-study-ozan-case-studyUITests.debug.xcconfig"; path = "Target Support Files/Pods-ozan-case-study-ozan-case-studyUITests/Pods-ozan-case-study-ozan-case-studyUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C277E0F58A11E2A12515FE72 /* Pods_ozan_case_study_ozan_case_studyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ozan_case_study_ozan_case_studyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7B3E4A7C53DA0452400FF74 /* Pods_ozan_case_studyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ozan_case_studyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC013C0527CE9A78008D02D9 /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		DC013C0727CE9AB2008D02D9 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		DC013C0927CE9AD1008D02D9 /* CoinApiRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinApiRouter.swift; sourceTree = "<group>"; };
+		DC013C0B27CE9CAA008D02D9 /* NetworkServiceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceError.swift; sourceTree = "<group>"; };
+		DC013C0E27CE9CD3008D02D9 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 		DC30F2CB27CE9513004C4338 /* ozan-case-study.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ozan-case-study.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC30F2CE27CE9513004C4338 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC30F2D727CE9514004C4338 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -107,8 +117,23 @@
 				077D55AD9AF3925010D4F00D /* Pods-ozan-case-studyTests.debug.xcconfig */,
 				5723F113930A8EFB09D56901 /* Pods-ozan-case-studyTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		DC013C0427CE9A64008D02D9 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				DC013C0527CE9A78008D02D9 /* Environment.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		DC013C0D27CE9CCC008D02D9 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DC013C0E27CE9CD3008D02D9 /* Logger.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		DC30F2C227CE9512004C4338 = {
@@ -139,6 +164,7 @@
 				DC30F30E27CE976C004C4338 /* Boot */,
 				DC30F30727CE974B004C4338 /* Application */,
 				DC30F30227CE972D004C4338 /* Storyboards */,
+				DC013C0427CE9A64008D02D9 /* Constants */,
 				DC30F2FF27CE9719004C4338 /* Common */,
 				DC30F2FE27CE9707004C4338 /* Resources */,
 			);
@@ -174,6 +200,7 @@
 		DC30F2FF27CE9719004C4338 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				DC013C0D27CE9CCC008D02D9 /* Helpers */,
 				DC30F30127CE972A004C4338 /* Network */,
 				DC30F30027CE9724004C4338 /* Extensions */,
 			);
@@ -192,6 +219,9 @@
 			isa = PBXGroup;
 			children = (
 				DC30F31327CE981C004C4338 /* NetworkService.swift */,
+				DC013C0B27CE9CAA008D02D9 /* NetworkServiceError.swift */,
+				DC013C0727CE9AB2008D02D9 /* Router.swift */,
+				DC013C0927CE9AD1008D02D9 /* CoinApiRouter.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -490,7 +520,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC30F31427CE981C004C4338 /* NetworkService.swift in Sources */,
+				DC013C0C27CE9CAA008D02D9 /* NetworkServiceError.swift in Sources */,
+				DC013C0627CE9A78008D02D9 /* Environment.swift in Sources */,
+				DC013C0A27CE9AD1008D02D9 /* CoinApiRouter.swift in Sources */,
 				DC30F31227CE9805004C4338 /* UIViewController+ShowAlert.swift in Sources */,
+				DC013C0F27CE9CD3008D02D9 /* Logger.swift in Sources */,
+				DC013C0827CE9AB2008D02D9 /* Router.swift in Sources */,
 				DC30F30D27CE9768004C4338 /* DetailViewController.swift in Sources */,
 				DC30F2CF27CE9513004C4338 /* AppDelegate.swift in Sources */,
 				DC30F30B27CE9760004C4338 /* HomeViewController.swift in Sources */,
