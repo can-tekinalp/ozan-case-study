@@ -9,11 +9,11 @@ import Alamofire
 
 enum CoinApiRouter: Router {
     
-    case coins
+    case getCoinList
     
     var path: String {
         switch self {
-        case .coins:
+        case .getCoinList:
             return "/coins"
         }
     }

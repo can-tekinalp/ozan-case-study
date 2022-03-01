@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  ozan-case-study
+
+  Created by Developer on 1.03.2022.
+  
+*/
+
+"NetworkServiceError.Cancelled" = "Operation cancalled.";
+"NetworkServiceError.UnexpectedError" = "An unexpected error occured.";

@@ -19,7 +19,7 @@ class NetworkService {
     @discardableResult
     func request<T: Decodable>(decodable : T.Type, router: Router, parameters: [String: Any], dispatchOn: DispatchQueue = .main, handler: @escaping (Result<T, NetworkServiceError>) -> Void) -> DataRequest? {
         guard let request = router.buildRequest(parameters: parameters) else {
-            handler(.failure(.other(NetworkServiceError.unexpectedErrorMessage)))
+            handler(.failure(.unexpectedError))
             return nil
         }
     
@@ -37,9 +37,9 @@ class NetworkService {
         case .failure(let error):
             switch error {
             case .explicitlyCancelled:
-                handler(.failure(.canceled))
+                handler(.failure(.cancelled))
             default:
-                handler(.failure(.other(NetworkServiceError.unexpectedErrorMessage)))
+                handler(.failure(.unexpectedError))
             }
             Logger.log(error)
         }
