@@ -8,11 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		DC30F2CF27CE9513004C4338 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC30F2CE27CE9513004C4338 /* AppDelegate.swift */; };
-		DC30F2D627CE9513004C4338 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC30F2D427CE9513004C4338 /* Main.storyboard */; };
 		DC30F2D827CE9514004C4338 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC30F2D727CE9514004C4338 /* Assets.xcassets */; };
 		DC30F2DB27CE9514004C4338 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC30F2D927CE9514004C4338 /* LaunchScreen.storyboard */; };
 		DC30F2E627CE9515004C4338 /* ozan_case_studyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC30F2E527CE9515004C4338 /* ozan_case_studyTests.swift */; };
 		DC30F2F127CE9515004C4338 /* ozan_case_studyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC30F2F027CE9515004C4338 /* ozan_case_studyUITests.swift */; };
+		DC30F30427CE973C004C4338 /* HomeStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC30F30327CE973C004C4338 /* HomeStoryboard.storyboard */; };
+		DC30F30627CE9744004C4338 /* DetailStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC30F30527CE9744004C4338 /* DetailStoryboard.storyboard */; };
+		DC30F30B27CE9760004C4338 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC30F30A27CE9760004C4338 /* HomeViewController.swift */; };
+		DC30F30D27CE9768004C4338 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC30F30C27CE9768004C4338 /* DetailViewController.swift */; };
+		DC30F31227CE9805004C4338 /* UIViewController+ShowAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC30F31127CE9805004C4338 /* UIViewController+ShowAlert.swift */; };
+		DC30F31427CE981C004C4338 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC30F31327CE981C004C4338 /* NetworkService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +40,6 @@
 /* Begin PBXFileReference section */
 		DC30F2CB27CE9513004C4338 /* ozan-case-study.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ozan-case-study.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC30F2CE27CE9513004C4338 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DC30F2D527CE9513004C4338 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DC30F2D727CE9514004C4338 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC30F2DA27CE9514004C4338 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC30F2DC27CE9514004C4338 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +49,12 @@
 		DC30F2EC27CE9515004C4338 /* ozan-case-studyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ozan-case-studyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC30F2F027CE9515004C4338 /* ozan_case_studyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ozan_case_studyUITests.swift; sourceTree = "<group>"; };
 		DC30F2F227CE9515004C4338 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC30F30327CE973C004C4338 /* HomeStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeStoryboard.storyboard; sourceTree = "<group>"; };
+		DC30F30527CE9744004C4338 /* DetailStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DetailStoryboard.storyboard; sourceTree = "<group>"; };
+		DC30F30A27CE9760004C4338 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		DC30F30C27CE9768004C4338 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		DC30F31127CE9805004C4338 /* UIViewController+ShowAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+ShowAlert.swift"; sourceTree = "<group>"; };
+		DC30F31327CE981C004C4338 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,11 +105,11 @@
 		DC30F2CD27CE9513004C4338 /* ozan-case-study */ = {
 			isa = PBXGroup;
 			children = (
-				DC30F2CE27CE9513004C4338 /* AppDelegate.swift */,
-				DC30F2D427CE9513004C4338 /* Main.storyboard */,
-				DC30F2D727CE9514004C4338 /* Assets.xcassets */,
-				DC30F2D927CE9514004C4338 /* LaunchScreen.storyboard */,
-				DC30F2DC27CE9514004C4338 /* Info.plist */,
+				DC30F30E27CE976C004C4338 /* Boot */,
+				DC30F30727CE974B004C4338 /* Application */,
+				DC30F30227CE972D004C4338 /* Storyboards */,
+				DC30F2FF27CE9719004C4338 /* Common */,
+				DC30F2FE27CE9707004C4338 /* Resources */,
 			);
 			path = "ozan-case-study";
 			sourceTree = "<group>";
@@ -120,6 +130,83 @@
 				DC30F2F227CE9515004C4338 /* Info.plist */,
 			);
 			path = "ozan-case-studyUITests";
+			sourceTree = "<group>";
+		};
+		DC30F2FE27CE9707004C4338 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DC30F2D727CE9514004C4338 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DC30F2FF27CE9719004C4338 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				DC30F30127CE972A004C4338 /* Network */,
+				DC30F30027CE9724004C4338 /* Extensions */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		DC30F30027CE9724004C4338 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DC30F31127CE9805004C4338 /* UIViewController+ShowAlert.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DC30F30127CE972A004C4338 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				DC30F31327CE981C004C4338 /* NetworkService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		DC30F30227CE972D004C4338 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				DC30F30327CE973C004C4338 /* HomeStoryboard.storyboard */,
+				DC30F30527CE9744004C4338 /* DetailStoryboard.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		DC30F30727CE974B004C4338 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				DC30F30927CE9756004C4338 /* Home */,
+				DC30F30827CE9751004C4338 /* Detail */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		DC30F30827CE9751004C4338 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				DC30F30C27CE9768004C4338 /* DetailViewController.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		DC30F30927CE9756004C4338 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				DC30F30A27CE9760004C4338 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		DC30F30E27CE976C004C4338 /* Boot */ = {
+			isa = PBXGroup;
+			children = (
+				DC30F2CE27CE9513004C4338 /* AppDelegate.swift */,
+				DC30F2DC27CE9514004C4338 /* Info.plist */,
+				DC30F2D927CE9514004C4338 /* LaunchScreen.storyboard */,
+			);
+			path = Boot;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,7 +314,8 @@
 			files = (
 				DC30F2DB27CE9514004C4338 /* LaunchScreen.storyboard in Resources */,
 				DC30F2D827CE9514004C4338 /* Assets.xcassets in Resources */,
-				DC30F2D627CE9513004C4338 /* Main.storyboard in Resources */,
+				DC30F30427CE973C004C4338 /* HomeStoryboard.storyboard in Resources */,
+				DC30F30627CE9744004C4338 /* DetailStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,7 +340,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC30F31427CE981C004C4338 /* NetworkService.swift in Sources */,
+				DC30F31227CE9805004C4338 /* UIViewController+ShowAlert.swift in Sources */,
+				DC30F30D27CE9768004C4338 /* DetailViewController.swift in Sources */,
 				DC30F2CF27CE9513004C4338 /* AppDelegate.swift in Sources */,
+				DC30F30B27CE9760004C4338 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,14 +380,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DC30F2D427CE9513004C4338 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DC30F2D527CE9513004C4338 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DC30F2D927CE9514004C4338 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -429,7 +513,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "ozan-case-study/Info.plist";
+				INFOPLIST_FILE = "ozan-case-study/Boot/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -448,7 +532,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "ozan-case-study/Info.plist";
+				INFOPLIST_FILE = "ozan-case-study/Boot/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
