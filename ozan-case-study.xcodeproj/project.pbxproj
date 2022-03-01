@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		DC30F2CF27CE9513004C4338 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC30F2CE27CE9513004C4338 /* AppDelegate.swift */; };
-		DC30F2D127CE9513004C4338 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC30F2D027CE9513004C4338 /* SceneDelegate.swift */; };
-		DC30F2D327CE9513004C4338 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC30F2D227CE9513004C4338 /* ViewController.swift */; };
 		DC30F2D627CE9513004C4338 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC30F2D427CE9513004C4338 /* Main.storyboard */; };
 		DC30F2D827CE9514004C4338 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC30F2D727CE9514004C4338 /* Assets.xcassets */; };
 		DC30F2DB27CE9514004C4338 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC30F2D927CE9514004C4338 /* LaunchScreen.storyboard */; };
@@ -37,8 +35,6 @@
 /* Begin PBXFileReference section */
 		DC30F2CB27CE9513004C4338 /* ozan-case-study.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ozan-case-study.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC30F2CE27CE9513004C4338 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DC30F2D027CE9513004C4338 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DC30F2D227CE9513004C4338 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DC30F2D527CE9513004C4338 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DC30F2D727CE9514004C4338 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC30F2DA27CE9514004C4338 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -100,8 +96,6 @@
 			isa = PBXGroup;
 			children = (
 				DC30F2CE27CE9513004C4338 /* AppDelegate.swift */,
-				DC30F2D027CE9513004C4338 /* SceneDelegate.swift */,
-				DC30F2D227CE9513004C4338 /* ViewController.swift */,
 				DC30F2D427CE9513004C4338 /* Main.storyboard */,
 				DC30F2D727CE9514004C4338 /* Assets.xcassets */,
 				DC30F2D927CE9514004C4338 /* LaunchScreen.storyboard */,
@@ -258,9 +252,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC30F2D327CE9513004C4338 /* ViewController.swift in Sources */,
 				DC30F2CF27CE9513004C4338 /* AppDelegate.swift in Sources */,
-				DC30F2D127CE9513004C4338 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +430,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "ozan-case-study/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -445,7 +438,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cantekinalp.ozan-case-study";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -456,6 +449,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "ozan-case-study/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -463,7 +457,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cantekinalp.ozan-case-study";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
