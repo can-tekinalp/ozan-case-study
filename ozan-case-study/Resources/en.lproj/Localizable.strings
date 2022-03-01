@@ -5,6 +5,7 @@
   Created by Developer on 1.03.2022.
   
 */
+"HomeViewController.ListIsEmpty" = "The list is empty";
 
 "NetworkServiceError.Cancelled" = "Operation cancalled.";
 "NetworkServiceError.UnexpectedError" = "An unexpected error occured.";

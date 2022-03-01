@@ -5,5 +5,7 @@
   Created by Developer on 1.03.2022.
   
 */
+"HomeViewController.ListIsEmpty" = "Liste boş";
+
 "NetworkServiceError.Cancelled" = "İşlem iptal edildi.";
 "NetworkServiceError.UnexpectedError" = "Beklenmedik bir hata oluştu.";

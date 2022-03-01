@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -9,28 +9,45 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Home View Controller-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
-                <viewController id="Y6W-OH-hqX" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeViewController" id="Y6W-OH-hqX" customClass="HomeViewController" customModule="ozan_case_study" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QV6-Q0-7AU">
-                                <rect key="frame" x="186" y="442.5" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ix1-jx-ERL" userLabel="Header">
+                                <rect key="frame" x="0.0" y="44" width="414" height="80"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="nDJ-aU-fhz"/>
+                                </constraints>
+                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="KV4-vK-esi">
+                                <rect key="frame" x="0.0" y="124" width="414" height="772"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="Y6W-OH-hqX" id="nvS-b8-VSx"/>
+                                    <outlet property="delegate" destination="Y6W-OH-hqX" id="RcU-pR-Tml"/>
+                                </connections>
+                            </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="QV6-Q0-7AU" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="cX3-Qb-JW3"/>
-                            <constraint firstItem="QV6-Q0-7AU" firstAttribute="centerY" secondItem="vDu-zF-Fre" secondAttribute="centerY" id="jZ3-6R-UF0"/>
+                            <constraint firstItem="KV4-vK-esi" firstAttribute="top" secondItem="Ix1-jx-ERL" secondAttribute="bottom" id="7xK-Rw-gZR"/>
+                            <constraint firstItem="Ix1-jx-ERL" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="Efo-RC-qf2"/>
+                            <constraint firstItem="Ix1-jx-ERL" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="OlK-53-pxL"/>
+                            <constraint firstItem="KV4-vK-esi" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="ZFL-Ix-JAn"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="Ix1-jx-ERL" secondAttribute="trailing" id="fXy-Qq-YQn"/>
+                            <constraint firstAttribute="bottom" secondItem="KV4-vK-esi" secondAttribute="bottom" id="nFe-xs-aum"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="KV4-vK-esi" secondAttribute="trailing" id="tgN-n2-gMP"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="tableView" destination="KV4-vK-esi" id="JF0-9h-C6a"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

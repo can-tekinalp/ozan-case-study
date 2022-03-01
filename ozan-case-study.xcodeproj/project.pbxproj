@@ -15,6 +15,13 @@
 		DC013C0A27CE9AD1008D02D9 /* CoinApiRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC013C0927CE9AD1008D02D9 /* CoinApiRouter.swift */; };
 		DC013C0C27CE9CAA008D02D9 /* NetworkServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC013C0B27CE9CAA008D02D9 /* NetworkServiceError.swift */; };
 		DC013C0F27CE9CD3008D02D9 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC013C0E27CE9CD3008D02D9 /* Logger.swift */; };
+		DC013C1227CEA08A008D02D9 /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC013C1127CEA08A008D02D9 /* Coin.swift */; };
+		DC013C1627CEAA9C008D02D9 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC013C1527CEAA9C008D02D9 /* HomeViewModel.swift */; };
+		DC013C1827CEB7C5008D02D9 /* Result+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC013C1727CEB7C5008D02D9 /* Result+Extension.swift */; };
+		DC013C1B27CEBB26008D02D9 /* CoinListProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC013C1A27CEBB26008D02D9 /* CoinListProvider.swift */; };
+		DC013C1F27CEBD2D008D02D9 /* Collection+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC013C1E27CEBD2D008D02D9 /* Collection+Extension.swift */; };
+		DC013C2227CEC03B008D02D9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC013C2427CEC03B008D02D9 /* Localizable.strings */; };
+		DC013C2A27CEC4EA008D02D9 /* LocalizationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC013C2927CEC4EA008D02D9 /* LocalizationHelper.swift */; };
 		DC30F2CF27CE9513004C4338 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC30F2CE27CE9513004C4338 /* AppDelegate.swift */; };
 		DC30F2D827CE9514004C4338 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC30F2D727CE9514004C4338 /* Assets.xcassets */; };
 		DC30F2DB27CE9514004C4338 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC30F2D927CE9514004C4338 /* LaunchScreen.storyboard */; };
@@ -26,6 +33,12 @@
 		DC30F30D27CE9768004C4338 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC30F30C27CE9768004C4338 /* DetailViewController.swift */; };
 		DC30F31227CE9805004C4338 /* UIViewController+ShowAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC30F31127CE9805004C4338 /* UIViewController+ShowAlert.swift */; };
 		DC30F31427CE981C004C4338 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC30F31327CE981C004C4338 /* NetworkService.swift */; };
+		DC8C5F1227CEC96400693724 /* CoinListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8C5F1127CEC96400693724 /* CoinListViewModel.swift */; };
+		DC8C5F1427CEC97500693724 /* CoinCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8C5F1327CEC97500693724 /* CoinCellViewModel.swift */; };
+		DC8C5F1627CECA8E00693724 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8C5F1527CECA8E00693724 /* UIView+Extensions.swift */; };
+		DC8C5F1927CECD4D00693724 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8C5F1827CECD4D00693724 /* BaseViewController.swift */; };
+		DC8C5F1B27CECD5F00693724 /* LoadingIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8C5F1A27CECD5F00693724 /* LoadingIndicatorView.swift */; };
+		DC8C5F1D27CECF9400693724 /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8C5F1C27CECF9400693724 /* UITableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +72,14 @@
 		DC013C0927CE9AD1008D02D9 /* CoinApiRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinApiRouter.swift; sourceTree = "<group>"; };
 		DC013C0B27CE9CAA008D02D9 /* NetworkServiceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceError.swift; sourceTree = "<group>"; };
 		DC013C0E27CE9CD3008D02D9 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		DC013C1127CEA08A008D02D9 /* Coin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
+		DC013C1527CEAA9C008D02D9 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		DC013C1727CEB7C5008D02D9 /* Result+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Result+Extension.swift"; sourceTree = "<group>"; };
+		DC013C1A27CEBB26008D02D9 /* CoinListProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinListProvider.swift; sourceTree = "<group>"; };
+		DC013C1E27CEBD2D008D02D9 /* Collection+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+Extension.swift"; sourceTree = "<group>"; };
+		DC013C2327CEC03B008D02D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DC013C2627CEC073008D02D9 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DC013C2927CEC4EA008D02D9 /* LocalizationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationHelper.swift; sourceTree = "<group>"; };
 		DC30F2CB27CE9513004C4338 /* ozan-case-study.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ozan-case-study.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC30F2CE27CE9513004C4338 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC30F2D727CE9514004C4338 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -76,6 +97,12 @@
 		DC30F30C27CE9768004C4338 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		DC30F31127CE9805004C4338 /* UIViewController+ShowAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+ShowAlert.swift"; sourceTree = "<group>"; };
 		DC30F31327CE981C004C4338 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		DC8C5F1127CEC96400693724 /* CoinListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinListViewModel.swift; sourceTree = "<group>"; };
+		DC8C5F1327CEC97500693724 /* CoinCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinCellViewModel.swift; sourceTree = "<group>"; };
+		DC8C5F1527CECA8E00693724 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		DC8C5F1827CECD4D00693724 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		DC8C5F1A27CECD5F00693724 /* LoadingIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingIndicatorView.swift; sourceTree = "<group>"; };
+		DC8C5F1C27CECF9400693724 /* UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
 		EAA48E29E9A0409C7507E83F /* Pods-ozan-case-study-ozan-case-studyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ozan-case-study-ozan-case-studyUITests.release.xcconfig"; path = "Target Support Files/Pods-ozan-case-study-ozan-case-studyUITests/Pods-ozan-case-study-ozan-case-studyUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -132,8 +159,43 @@
 			isa = PBXGroup;
 			children = (
 				DC013C0E27CE9CD3008D02D9 /* Logger.swift */,
+				DC013C2927CEC4EA008D02D9 /* LocalizationHelper.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		DC013C1027CEA070008D02D9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DC013C1127CEA08A008D02D9 /* Coin.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DC013C1327CEAA06008D02D9 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DC30F30A27CE9760004C4338 /* HomeViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		DC013C1427CEAA95008D02D9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DC013C1527CEAA9C008D02D9 /* HomeViewModel.swift */,
+				DC8C5F1127CEC96400693724 /* CoinListViewModel.swift */,
+				DC8C5F1327CEC97500693724 /* CoinCellViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DC013C1927CEBB0E008D02D9 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				DC013C1A27CEBB26008D02D9 /* CoinListProvider.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 		DC30F2C227CE9512004C4338 = {
@@ -193,6 +255,7 @@
 			isa = PBXGroup;
 			children = (
 				DC30F2D727CE9514004C4338 /* Assets.xcassets */,
+				DC013C2427CEC03B008D02D9 /* Localizable.strings */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -200,6 +263,7 @@
 		DC30F2FF27CE9719004C4338 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				DC8C5F1727CECD3B00693724 /* UIComponents */,
 				DC013C0D27CE9CCC008D02D9 /* Helpers */,
 				DC30F30127CE972A004C4338 /* Network */,
 				DC30F30027CE9724004C4338 /* Extensions */,
@@ -211,6 +275,10 @@
 			isa = PBXGroup;
 			children = (
 				DC30F31127CE9805004C4338 /* UIViewController+ShowAlert.swift */,
+				DC013C1727CEB7C5008D02D9 /* Result+Extension.swift */,
+				DC013C1E27CEBD2D008D02D9 /* Collection+Extension.swift */,
+				DC8C5F1527CECA8E00693724 /* UIView+Extensions.swift */,
+				DC8C5F1C27CECF9400693724 /* UITableView.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -255,7 +323,10 @@
 		DC30F30927CE9756004C4338 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				DC30F30A27CE9760004C4338 /* HomeViewController.swift */,
+				DC013C1927CEBB0E008D02D9 /* Service */,
+				DC013C1427CEAA95008D02D9 /* ViewModel */,
+				DC013C1327CEAA06008D02D9 /* ViewController */,
+				DC013C1027CEA070008D02D9 /* Model */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -268,6 +339,15 @@
 				DC30F2D927CE9514004C4338 /* LaunchScreen.storyboard */,
 			);
 			path = Boot;
+			sourceTree = "<group>";
+		};
+		DC8C5F1727CECD3B00693724 /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				DC8C5F1827CECD4D00693724 /* BaseViewController.swift */,
+				DC8C5F1A27CECD5F00693724 /* LoadingIndicatorView.swift */,
+			);
+			path = UIComponents;
 			sourceTree = "<group>";
 		};
 		F0E7D873C69AD23FB1D2B31B /* Frameworks */ = {
@@ -370,6 +450,7 @@
 			knownRegions = (
 				en,
 				Base,
+				tr,
 			);
 			mainGroup = DC30F2C227CE9512004C4338;
 			productRefGroup = DC30F2CC27CE9513004C4338 /* Products */;
@@ -388,6 +469,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC013C2227CEC03B008D02D9 /* Localizable.strings in Resources */,
 				DC30F2DB27CE9514004C4338 /* LaunchScreen.storyboard in Resources */,
 				DC30F2D827CE9514004C4338 /* Assets.xcassets in Resources */,
 				DC30F30427CE973C004C4338 /* HomeStoryboard.storyboard in Resources */,
@@ -520,14 +602,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC30F31427CE981C004C4338 /* NetworkService.swift in Sources */,
+				DC8C5F1427CEC97500693724 /* CoinCellViewModel.swift in Sources */,
+				DC013C1B27CEBB26008D02D9 /* CoinListProvider.swift in Sources */,
 				DC013C0C27CE9CAA008D02D9 /* NetworkServiceError.swift in Sources */,
 				DC013C0627CE9A78008D02D9 /* Environment.swift in Sources */,
+				DC8C5F1927CECD4D00693724 /* BaseViewController.swift in Sources */,
 				DC013C0A27CE9AD1008D02D9 /* CoinApiRouter.swift in Sources */,
+				DC8C5F1D27CECF9400693724 /* UITableView.swift in Sources */,
 				DC30F31227CE9805004C4338 /* UIViewController+ShowAlert.swift in Sources */,
 				DC013C0F27CE9CD3008D02D9 /* Logger.swift in Sources */,
+				DC8C5F1227CEC96400693724 /* CoinListViewModel.swift in Sources */,
 				DC013C0827CE9AB2008D02D9 /* Router.swift in Sources */,
+				DC013C1F27CEBD2D008D02D9 /* Collection+Extension.swift in Sources */,
+				DC013C1627CEAA9C008D02D9 /* HomeViewModel.swift in Sources */,
+				DC8C5F1627CECA8E00693724 /* UIView+Extensions.swift in Sources */,
+				DC013C1827CEB7C5008D02D9 /* Result+Extension.swift in Sources */,
 				DC30F30D27CE9768004C4338 /* DetailViewController.swift in Sources */,
+				DC013C2A27CEC4EA008D02D9 /* LocalizationHelper.swift in Sources */,
 				DC30F2CF27CE9513004C4338 /* AppDelegate.swift in Sources */,
+				DC8C5F1B27CECD5F00693724 /* LoadingIndicatorView.swift in Sources */,
+				DC013C1227CEA08A008D02D9 /* Coin.swift in Sources */,
 				DC30F30B27CE9760004C4338 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -564,6 +658,15 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		DC013C2427CEC03B008D02D9 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC013C2327CEC03B008D02D9 /* en */,
+				DC013C2627CEC073008D02D9 /* tr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		DC30F2D927CE9514004C4338 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -579,6 +682,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -626,7 +730,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -640,6 +744,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -681,7 +786,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
