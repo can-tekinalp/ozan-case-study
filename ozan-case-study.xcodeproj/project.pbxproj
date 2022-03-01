@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B557156CBB786C67285CF75 /* Pods_ozan_case_study.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 709CF1E41B978A51B16F0C1E /* Pods_ozan_case_study.framework */; };
+		85D62D06E9EF66CD255640B7 /* Pods_ozan_case_study_ozan_case_studyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C277E0F58A11E2A12515FE72 /* Pods_ozan_case_study_ozan_case_studyUITests.framework */; };
+		D295CC8F45B18F3B2680D798 /* Pods_ozan_case_studyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7B3E4A7C53DA0452400FF74 /* Pods_ozan_case_studyTests.framework */; };
 		DC30F2CF27CE9513004C4338 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC30F2CE27CE9513004C4338 /* AppDelegate.swift */; };
 		DC30F2D827CE9514004C4338 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC30F2D727CE9514004C4338 /* Assets.xcassets */; };
 		DC30F2DB27CE9514004C4338 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC30F2D927CE9514004C4338 /* LaunchScreen.storyboard */; };
@@ -38,6 +41,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		077D55AD9AF3925010D4F00D /* Pods-ozan-case-studyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ozan-case-studyTests.debug.xcconfig"; path = "Target Support Files/Pods-ozan-case-studyTests/Pods-ozan-case-studyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		499F047D82E9FF89688CBB3C /* Pods-ozan-case-study.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ozan-case-study.debug.xcconfig"; path = "Target Support Files/Pods-ozan-case-study/Pods-ozan-case-study.debug.xcconfig"; sourceTree = "<group>"; };
+		5723F113930A8EFB09D56901 /* Pods-ozan-case-studyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ozan-case-studyTests.release.xcconfig"; path = "Target Support Files/Pods-ozan-case-studyTests/Pods-ozan-case-studyTests.release.xcconfig"; sourceTree = "<group>"; };
+		709CF1E41B978A51B16F0C1E /* Pods_ozan_case_study.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ozan_case_study.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82B1950D4738CAC666AFF67E /* Pods-ozan-case-study.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ozan-case-study.release.xcconfig"; path = "Target Support Files/Pods-ozan-case-study/Pods-ozan-case-study.release.xcconfig"; sourceTree = "<group>"; };
+		9FC1B31AD93226B766F5D624 /* Pods-ozan-case-study-ozan-case-studyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ozan-case-study-ozan-case-studyUITests.debug.xcconfig"; path = "Target Support Files/Pods-ozan-case-study-ozan-case-studyUITests/Pods-ozan-case-study-ozan-case-studyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C277E0F58A11E2A12515FE72 /* Pods_ozan_case_study_ozan_case_studyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ozan_case_study_ozan_case_studyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7B3E4A7C53DA0452400FF74 /* Pods_ozan_case_studyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ozan_case_studyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC30F2CB27CE9513004C4338 /* ozan-case-study.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ozan-case-study.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC30F2CE27CE9513004C4338 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC30F2D727CE9514004C4338 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -55,6 +66,7 @@
 		DC30F30C27CE9768004C4338 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		DC30F31127CE9805004C4338 /* UIViewController+ShowAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+ShowAlert.swift"; sourceTree = "<group>"; };
 		DC30F31327CE981C004C4338 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		EAA48E29E9A0409C7507E83F /* Pods-ozan-case-study-ozan-case-studyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ozan-case-study-ozan-case-studyUITests.release.xcconfig"; path = "Target Support Files/Pods-ozan-case-study-ozan-case-studyUITests/Pods-ozan-case-study-ozan-case-studyUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B557156CBB786C67285CF75 /* Pods_ozan_case_study.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D295CC8F45B18F3B2680D798 /* Pods_ozan_case_studyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,12 +90,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85D62D06E9EF66CD255640B7 /* Pods_ozan_case_study_ozan_case_studyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6BEA94B9A74E3D3F7063B2EC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				499F047D82E9FF89688CBB3C /* Pods-ozan-case-study.debug.xcconfig */,
+				82B1950D4738CAC666AFF67E /* Pods-ozan-case-study.release.xcconfig */,
+				9FC1B31AD93226B766F5D624 /* Pods-ozan-case-study-ozan-case-studyUITests.debug.xcconfig */,
+				EAA48E29E9A0409C7507E83F /* Pods-ozan-case-study-ozan-case-studyUITests.release.xcconfig */,
+				077D55AD9AF3925010D4F00D /* Pods-ozan-case-studyTests.debug.xcconfig */,
+				5723F113930A8EFB09D56901 /* Pods-ozan-case-studyTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		DC30F2C227CE9512004C4338 = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +118,8 @@
 				DC30F2E427CE9515004C4338 /* ozan-case-studyTests */,
 				DC30F2EF27CE9515004C4338 /* ozan-case-studyUITests */,
 				DC30F2CC27CE9513004C4338 /* Products */,
+				6BEA94B9A74E3D3F7063B2EC /* Pods */,
+				F0E7D873C69AD23FB1D2B31B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -209,6 +240,16 @@
 			path = Boot;
 			sourceTree = "<group>";
 		};
+		F0E7D873C69AD23FB1D2B31B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				709CF1E41B978A51B16F0C1E /* Pods_ozan_case_study.framework */,
+				C277E0F58A11E2A12515FE72 /* Pods_ozan_case_study_ozan_case_studyUITests.framework */,
+				D7B3E4A7C53DA0452400FF74 /* Pods_ozan_case_studyTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -216,9 +257,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DC30F2F527CE9515004C4338 /* Build configuration list for PBXNativeTarget "ozan-case-study" */;
 			buildPhases = (
+				32D9AFC509A8BD433A261C1A /* [CP] Check Pods Manifest.lock */,
 				DC30F2C727CE9513004C4338 /* Sources */,
 				DC30F2C827CE9513004C4338 /* Frameworks */,
 				DC30F2C927CE9513004C4338 /* Resources */,
+				615C47290E3F593B1CAC1016 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,6 +276,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DC30F2F827CE9515004C4338 /* Build configuration list for PBXNativeTarget "ozan-case-studyTests" */;
 			buildPhases = (
+				84853428008886DBAF0FB7D2 /* [CP] Check Pods Manifest.lock */,
 				DC30F2DD27CE9515004C4338 /* Sources */,
 				DC30F2DE27CE9515004C4338 /* Frameworks */,
 				DC30F2DF27CE9515004C4338 /* Resources */,
@@ -251,9 +295,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DC30F2FB27CE9515004C4338 /* Build configuration list for PBXNativeTarget "ozan-case-studyUITests" */;
 			buildPhases = (
+				1B5C0E5A9E7858180E871B49 /* [CP] Check Pods Manifest.lock */,
 				DC30F2E827CE9515004C4338 /* Sources */,
 				DC30F2E927CE9515004C4338 /* Frameworks */,
 				DC30F2EA27CE9515004C4338 /* Resources */,
+				2D2602399BA0E10E3A348179 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -334,6 +380,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B5C0E5A9E7858180E871B49 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ozan-case-study-ozan-case-studyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D2602399BA0E10E3A348179 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ozan-case-study-ozan-case-studyUITests/Pods-ozan-case-study-ozan-case-studyUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ozan-case-study-ozan-case-studyUITests/Pods-ozan-case-study-ozan-case-studyUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ozan-case-study-ozan-case-studyUITests/Pods-ozan-case-study-ozan-case-studyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		32D9AFC509A8BD433A261C1A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ozan-case-study-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		615C47290E3F593B1CAC1016 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ozan-case-study/Pods-ozan-case-study-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ozan-case-study/Pods-ozan-case-study-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ozan-case-study/Pods-ozan-case-study-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84853428008886DBAF0FB7D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ozan-case-studyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DC30F2C727CE9513004C4338 /* Sources */ = {
@@ -509,6 +658,7 @@
 		};
 		DC30F2F627CE9515004C4338 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 499F047D82E9FF89688CBB3C /* Pods-ozan-case-study.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -528,6 +678,7 @@
 		};
 		DC30F2F727CE9515004C4338 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82B1950D4738CAC666AFF67E /* Pods-ozan-case-study.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -547,6 +698,7 @@
 		};
 		DC30F2F927CE9515004C4338 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 077D55AD9AF3925010D4F00D /* Pods-ozan-case-studyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -568,6 +720,7 @@
 		};
 		DC30F2FA27CE9515004C4338 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5723F113930A8EFB09D56901 /* Pods-ozan-case-studyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -589,6 +742,7 @@
 		};
 		DC30F2FC27CE9515004C4338 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FC1B31AD93226B766F5D624 /* Pods-ozan-case-study-ozan-case-studyUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -608,6 +762,7 @@
 		};
 		DC30F2FD27CE9515004C4338 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAA48E29E9A0409C7507E83F /* Pods-ozan-case-study-ozan-case-studyUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

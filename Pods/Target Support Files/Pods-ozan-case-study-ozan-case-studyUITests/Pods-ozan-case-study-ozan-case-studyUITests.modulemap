@@ -1,0 +1,6 @@
+framework module Pods_ozan_case_study_ozan_case_studyUITests {
+  umbrella header "Pods-ozan-case-study-ozan-case-studyUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
