@@ -20,6 +20,7 @@ class BaseViewController: UIViewController {
     }
     
     func hideLoadingIndicator() {
+        loadingIndicatorView.removeFromSuperview()
         loadingIndicatorView.stopAnimating()
     }
 }

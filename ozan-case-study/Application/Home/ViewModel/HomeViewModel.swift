@@ -10,12 +10,14 @@ import Foundation
 final class HomeViewModel {
     
     private let coinListProviding: CoinListProviding
-    
+    let pickerDataSource: PickerDataSource
+    private var selectedSortOption: CoinSortType = .price
     var coinListViewModel: CoinListViewModel?
     var stateChangedHandler: ((HomeViewModel.States) -> Void)?
     
-    init(coinListProviding: CoinListProviding) {
+    init(coinListProviding: CoinListProviding, pickerDataSource: PickerDataSource) {
         self.coinListProviding = coinListProviding
+        self.pickerDataSource = pickerDataSource
     }
     
     func fetchList() {
@@ -34,10 +36,25 @@ final class HomeViewModel {
                 return
             }
             coinListViewModel = CoinListViewModel(coinList: response.data.coins)
+            coinListViewModel?.sort(by: selectedSortOption)
             stateChangedHandler?(.receivedList)
         case .failure(let errorMessage):
             stateChangedHandler?(.receivedError(errorMessage))
         }
+    }
+    
+    func selectionChanged(index: Int) {
+        let title = pickerDataSource.titleFor(row: index)!
+        let sortType = CoinSortType(rawValue: title)!
+        if sortType != selectedSortOption {
+            selectedSortOption = sortType
+            handleSortOptionChanged()
+        }
+    }
+    
+    private func handleSortOptionChanged() {
+        coinListViewModel?.sort(by: selectedSortOption)
+        stateChangedHandler?(.changedSortingType)
     }
 }
 
@@ -48,6 +65,7 @@ extension HomeViewModel {
         case receivedError(String)
         case receivedList
         case receivedEmptyList
+        case changedSortingType
     }
 }
 

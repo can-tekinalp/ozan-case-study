@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SelectFieldView" customModule="ozan_case_study" customModuleProvider="target">
+            <connections>
+                <outlet property="containerView" destination="sTY-MH-fcn" id="LP3-aX-r4v"/>
+                <outlet property="contentView" destination="iN0-l3-epB" id="YGD-05-Uif"/>
+                <outlet property="textField" destination="bo0-1K-fC7" id="DhG-x1-2OR"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" userLabel="Content">
+            <rect key="frame" x="0.0" y="0.0" width="105" height="39"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sTY-MH-fcn" userLabel="Container">
+                    <rect key="frame" x="0.0" y="0.0" width="105" height="39"/>
+                    <subviews>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Text" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bo0-1K-fC7" customClass="SelectTextField" customModule="ozan_case_study" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="0.0" width="81" height="39"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="down-arrow" translatesAutoresizingMaskIntoConstraints="NO" id="xEc-qZ-QEM">
+                            <rect key="frame" x="89" y="11.5" width="16" height="16"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="16" id="5Dm-vA-3VR"/>
+                                <constraint firstAttribute="width" constant="16" id="ryj-no-d7z"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="bo0-1K-fC7" firstAttribute="top" secondItem="sTY-MH-fcn" secondAttribute="top" id="19t-ma-YKd"/>
+                        <constraint firstAttribute="bottom" secondItem="bo0-1K-fC7" secondAttribute="bottom" id="7CE-bW-6Lh"/>
+                        <constraint firstItem="xEc-qZ-QEM" firstAttribute="leading" secondItem="bo0-1K-fC7" secondAttribute="trailing" constant="8" id="AHg-Lm-Mim"/>
+                        <constraint firstAttribute="trailing" secondItem="xEc-qZ-QEM" secondAttribute="trailing" id="q8b-2p-xIK"/>
+                        <constraint firstItem="xEc-qZ-QEM" firstAttribute="centerY" secondItem="sTY-MH-fcn" secondAttribute="centerY" id="qDJ-IB-hvk"/>
+                        <constraint firstItem="bo0-1K-fC7" firstAttribute="leading" secondItem="sTY-MH-fcn" secondAttribute="leading" id="xhx-oX-Rgx"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8z1-9n-cl1">
+                    <rect key="frame" x="0.0" y="0.0" width="105" height="39"/>
+                    <connections>
+                        <action selector="viewTapped:" destination="-1" eventType="touchUpInside" id="LhX-lu-OBi"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="8z1-9n-cl1" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="8KW-AL-9sp"/>
+                <constraint firstItem="8z1-9n-cl1" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="EXR-h4-xfK"/>
+                <constraint firstAttribute="bottom" secondItem="sTY-MH-fcn" secondAttribute="bottom" id="VQZ-ZD-gkR"/>
+                <constraint firstAttribute="trailing" secondItem="8z1-9n-cl1" secondAttribute="trailing" id="YoS-FD-V0E"/>
+                <constraint firstItem="sTY-MH-fcn" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="aXq-8m-cFW"/>
+                <constraint firstAttribute="bottom" secondItem="8z1-9n-cl1" secondAttribute="bottom" id="eX3-3s-GZp"/>
+                <constraint firstAttribute="trailing" secondItem="sTY-MH-fcn" secondAttribute="trailing" id="pBD-YP-fqw"/>
+                <constraint firstItem="sTY-MH-fcn" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="vo0-3V-rLn"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-5.0724637681159424" y="80.022321428571431"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="down-arrow" width="256" height="256"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

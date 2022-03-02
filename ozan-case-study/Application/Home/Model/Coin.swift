@@ -19,7 +19,7 @@ extension CoinsResponse {
     
     static let successfulResponse = CoinsResponse(
         status: "success",
-        data: ResponseData(coins: [.mockCoin])
+        data: ResponseData(coins: [.mockCoin, .mockCoin2, .mockCoin, .mockCoin2, .mockCoin, .mockCoin2, .mockCoin, .mockCoin2, .mockCoin, .mockCoin2])
     )
     
     static let emptyResponse = CoinsResponse(
@@ -40,7 +40,6 @@ struct Coin: Decodable {
     let uuid: String
     let symbol: String
     let name: String
-    let iconURL: String
     let price: String
     let listedAt: Int
     let change: String
@@ -51,7 +50,6 @@ struct Coin: Decodable {
         case uuid = "uuid"
         case symbol = "symbol"
         case name = "name"
-        case iconURL = "iconUrl"
         case price = "price"
         case listedAt = "listedAt"
         case change = "change"
@@ -65,10 +63,30 @@ extension Coin {
         uuid: "Qwsogvtv82FCd",
         symbol: "BTC",
         name: "Bitcoin",
-        iconURL: "https://cdn.coinranking.com/bOabBYkcX/bitcoin_btc.svg",
         price: "56373.67522635439",
         listedAt: 1330214400,
-        change: "-3.61",
+        change: "-2.61",
         the24HVolume: "39591261551"
     )
+    
+    static let mockCoin2 = Coin(
+        uuid: "Zwsogvtv82FCd",
+        symbol: "ETH",
+        name: "Ethereum",
+        price: "16373.67522635439",
+        listedAt: 1230214400,
+        change: "3.61",
+        the24HVolume: "29591261551"
+    )
+}
+
+extension Coin {
+    
+    var changeAsDouble: Double {
+        return Double(change) ?? 0
+    }
+    
+    var priceAsDouble: Double {
+        return Double(price) ?? 0
+    }
 }

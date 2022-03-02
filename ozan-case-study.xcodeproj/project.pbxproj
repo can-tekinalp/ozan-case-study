@@ -33,9 +33,21 @@
 		DC30F30D27CE9768004C4338 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC30F30C27CE9768004C4338 /* DetailViewController.swift */; };
 		DC30F31227CE9805004C4338 /* UIViewController+ShowAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC30F31127CE9805004C4338 /* UIViewController+ShowAlert.swift */; };
 		DC30F31427CE981C004C4338 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC30F31327CE981C004C4338 /* NetworkService.swift */; };
+		DC37324327CF36C40004871D /* CoinTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC37324127CF36C40004871D /* CoinTableViewCell.swift */; };
+		DC37324427CF36C40004871D /* CoinTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC37324227CF36C40004871D /* CoinTableViewCell.xib */; };
+		DC37324627CF3D0E0004871D /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC37324527CF3D0E0004871D /* UIColor+Extension.swift */; };
+		DC37324827CF3D280004871D /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC37324727CF3D280004871D /* UIView+Extension.swift */; };
+		DC37324A27CF3D470004871D /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC37324927CF3D470004871D /* Colors.swift */; };
+		DC37324C27CF4A170004871D /* Formatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC37324B27CF4A170004871D /* Formatters.swift */; };
+		DC37324E27CF4A540004871D /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC37324D27CF4A540004871D /* Double+Extension.swift */; };
+		DC37325027CF4F030004871D /* SelectFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC37324F27CF4F030004871D /* SelectFieldView.swift */; };
+		DC37325327CF4F180004871D /* SelectFieldView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC37325227CF4F180004871D /* SelectFieldView.xib */; };
+		DC37325527CF5D450004871D /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC37325427CF5D450004871D /* UITextField+Extension.swift */; };
+		DC37325827CF5DC90004871D /* PickerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC37325727CF5DC90004871D /* PickerDataSource.swift */; };
+		DC37325A27CF5DF40004871D /* CoinSortType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC37325927CF5DF40004871D /* CoinSortType.swift */; };
+		DC37325E27CF6DEB0004871D /* CoinSortSelectionDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC37325D27CF6DEB0004871D /* CoinSortSelectionDataSource.swift */; };
 		DC8C5F1227CEC96400693724 /* CoinListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8C5F1127CEC96400693724 /* CoinListViewModel.swift */; };
 		DC8C5F1427CEC97500693724 /* CoinCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8C5F1327CEC97500693724 /* CoinCellViewModel.swift */; };
-		DC8C5F1627CECA8E00693724 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8C5F1527CECA8E00693724 /* UIView+Extensions.swift */; };
 		DC8C5F1927CECD4D00693724 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8C5F1827CECD4D00693724 /* BaseViewController.swift */; };
 		DC8C5F1B27CECD5F00693724 /* LoadingIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8C5F1A27CECD5F00693724 /* LoadingIndicatorView.swift */; };
 		DC8C5F1D27CECF9400693724 /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8C5F1C27CECF9400693724 /* UITableView.swift */; };
@@ -97,9 +109,21 @@
 		DC30F30C27CE9768004C4338 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		DC30F31127CE9805004C4338 /* UIViewController+ShowAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+ShowAlert.swift"; sourceTree = "<group>"; };
 		DC30F31327CE981C004C4338 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		DC37324127CF36C40004871D /* CoinTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinTableViewCell.swift; sourceTree = "<group>"; };
+		DC37324227CF36C40004871D /* CoinTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CoinTableViewCell.xib; sourceTree = "<group>"; };
+		DC37324527CF3D0E0004871D /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		DC37324727CF3D280004871D /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		DC37324927CF3D470004871D /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		DC37324B27CF4A170004871D /* Formatters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Formatters.swift; sourceTree = "<group>"; };
+		DC37324D27CF4A540004871D /* Double+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extension.swift"; sourceTree = "<group>"; };
+		DC37324F27CF4F030004871D /* SelectFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectFieldView.swift; sourceTree = "<group>"; };
+		DC37325227CF4F180004871D /* SelectFieldView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectFieldView.xib; sourceTree = "<group>"; };
+		DC37325427CF5D450004871D /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
+		DC37325727CF5DC90004871D /* PickerDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerDataSource.swift; sourceTree = "<group>"; };
+		DC37325927CF5DF40004871D /* CoinSortType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinSortType.swift; sourceTree = "<group>"; };
+		DC37325D27CF6DEB0004871D /* CoinSortSelectionDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinSortSelectionDataSource.swift; sourceTree = "<group>"; };
 		DC8C5F1127CEC96400693724 /* CoinListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinListViewModel.swift; sourceTree = "<group>"; };
 		DC8C5F1327CEC97500693724 /* CoinCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinCellViewModel.swift; sourceTree = "<group>"; };
-		DC8C5F1527CECA8E00693724 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		DC8C5F1827CECD4D00693724 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		DC8C5F1A27CECD5F00693724 /* LoadingIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingIndicatorView.swift; sourceTree = "<group>"; };
 		DC8C5F1C27CECF9400693724 /* UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
@@ -151,6 +175,7 @@
 			isa = PBXGroup;
 			children = (
 				DC013C0527CE9A78008D02D9 /* Environment.swift */,
+				DC37324927CF3D470004871D /* Colors.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -160,6 +185,7 @@
 			children = (
 				DC013C0E27CE9CD3008D02D9 /* Logger.swift */,
 				DC013C2927CEC4EA008D02D9 /* LocalizationHelper.swift */,
+				DC37324B27CF4A170004871D /* Formatters.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -263,6 +289,7 @@
 		DC30F2FF27CE9719004C4338 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				DC37325627CF5DBC0004871D /* Others */,
 				DC8C5F1727CECD3B00693724 /* UIComponents */,
 				DC013C0D27CE9CCC008D02D9 /* Helpers */,
 				DC30F30127CE972A004C4338 /* Network */,
@@ -277,8 +304,11 @@
 				DC30F31127CE9805004C4338 /* UIViewController+ShowAlert.swift */,
 				DC013C1727CEB7C5008D02D9 /* Result+Extension.swift */,
 				DC013C1E27CEBD2D008D02D9 /* Collection+Extension.swift */,
-				DC8C5F1527CECA8E00693724 /* UIView+Extensions.swift */,
 				DC8C5F1C27CECF9400693724 /* UITableView.swift */,
+				DC37324527CF3D0E0004871D /* UIColor+Extension.swift */,
+				DC37324727CF3D280004871D /* UIView+Extension.swift */,
+				DC37324D27CF4A540004871D /* Double+Extension.swift */,
+				DC37325427CF5D450004871D /* UITextField+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -323,6 +353,7 @@
 		DC30F30927CE9756004C4338 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				DC37324027CF36990004871D /* View */,
 				DC013C1927CEBB0E008D02D9 /* Service */,
 				DC013C1427CEAA95008D02D9 /* ViewModel */,
 				DC013C1327CEAA06008D02D9 /* ViewController */,
@@ -341,9 +372,38 @@
 			path = Boot;
 			sourceTree = "<group>";
 		};
+		DC37324027CF36990004871D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DC37324127CF36C40004871D /* CoinTableViewCell.swift */,
+				DC37324227CF36C40004871D /* CoinTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DC37325127CF4F080004871D /* SelectFieldView */ = {
+			isa = PBXGroup;
+			children = (
+				DC37324F27CF4F030004871D /* SelectFieldView.swift */,
+				DC37325227CF4F180004871D /* SelectFieldView.xib */,
+			);
+			path = SelectFieldView;
+			sourceTree = "<group>";
+		};
+		DC37325627CF5DBC0004871D /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				DC37325727CF5DC90004871D /* PickerDataSource.swift */,
+				DC37325927CF5DF40004871D /* CoinSortType.swift */,
+				DC37325D27CF6DEB0004871D /* CoinSortSelectionDataSource.swift */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
 		DC8C5F1727CECD3B00693724 /* UIComponents */ = {
 			isa = PBXGroup;
 			children = (
+				DC37325127CF4F080004871D /* SelectFieldView */,
 				DC8C5F1827CECD4D00693724 /* BaseViewController.swift */,
 				DC8C5F1A27CECD5F00693724 /* LoadingIndicatorView.swift */,
 			);
@@ -471,8 +531,10 @@
 			files = (
 				DC013C2227CEC03B008D02D9 /* Localizable.strings in Resources */,
 				DC30F2DB27CE9514004C4338 /* LaunchScreen.storyboard in Resources */,
+				DC37324427CF36C40004871D /* CoinTableViewCell.xib in Resources */,
 				DC30F2D827CE9514004C4338 /* Assets.xcassets in Resources */,
 				DC30F30427CE973C004C4338 /* HomeStoryboard.storyboard in Resources */,
+				DC37325327CF4F180004871D /* SelectFieldView.xib in Resources */,
 				DC30F30627CE9744004C4338 /* DetailStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -603,25 +665,35 @@
 			files = (
 				DC30F31427CE981C004C4338 /* NetworkService.swift in Sources */,
 				DC8C5F1427CEC97500693724 /* CoinCellViewModel.swift in Sources */,
+				DC37325A27CF5DF40004871D /* CoinSortType.swift in Sources */,
 				DC013C1B27CEBB26008D02D9 /* CoinListProvider.swift in Sources */,
 				DC013C0C27CE9CAA008D02D9 /* NetworkServiceError.swift in Sources */,
 				DC013C0627CE9A78008D02D9 /* Environment.swift in Sources */,
 				DC8C5F1927CECD4D00693724 /* BaseViewController.swift in Sources */,
+				DC37325827CF5DC90004871D /* PickerDataSource.swift in Sources */,
+				DC37324A27CF3D470004871D /* Colors.swift in Sources */,
 				DC013C0A27CE9AD1008D02D9 /* CoinApiRouter.swift in Sources */,
 				DC8C5F1D27CECF9400693724 /* UITableView.swift in Sources */,
 				DC30F31227CE9805004C4338 /* UIViewController+ShowAlert.swift in Sources */,
 				DC013C0F27CE9CD3008D02D9 /* Logger.swift in Sources */,
+				DC37325527CF5D450004871D /* UITextField+Extension.swift in Sources */,
 				DC8C5F1227CEC96400693724 /* CoinListViewModel.swift in Sources */,
 				DC013C0827CE9AB2008D02D9 /* Router.swift in Sources */,
 				DC013C1F27CEBD2D008D02D9 /* Collection+Extension.swift in Sources */,
+				DC37324C27CF4A170004871D /* Formatters.swift in Sources */,
 				DC013C1627CEAA9C008D02D9 /* HomeViewModel.swift in Sources */,
-				DC8C5F1627CECA8E00693724 /* UIView+Extensions.swift in Sources */,
+				DC37324627CF3D0E0004871D /* UIColor+Extension.swift in Sources */,
 				DC013C1827CEB7C5008D02D9 /* Result+Extension.swift in Sources */,
 				DC30F30D27CE9768004C4338 /* DetailViewController.swift in Sources */,
 				DC013C2A27CEC4EA008D02D9 /* LocalizationHelper.swift in Sources */,
+				DC37325027CF4F030004871D /* SelectFieldView.swift in Sources */,
+				DC37324E27CF4A540004871D /* Double+Extension.swift in Sources */,
 				DC30F2CF27CE9513004C4338 /* AppDelegate.swift in Sources */,
+				DC37325E27CF6DEB0004871D /* CoinSortSelectionDataSource.swift in Sources */,
 				DC8C5F1B27CECD5F00693724 /* LoadingIndicatorView.swift in Sources */,
 				DC013C1227CEA08A008D02D9 /* Coin.swift in Sources */,
+				DC37324327CF36C40004871D /* CoinTableViewCell.swift in Sources */,
+				DC37324827CF3D280004871D /* UIView+Extension.swift in Sources */,
 				DC30F30B27CE9760004C4338 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
